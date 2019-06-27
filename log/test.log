@@ -266,6 +266,7 @@ Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
   [1m[35m (47.7ms)[0m  DELETE FROM "posts";
   [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
   [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+<<<<<<< HEAD
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  commit transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
@@ -305,3 +306,5 @@ Processing by PostsController#show as HTML
   Rendered posts/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+>>>>>>> b73b2665ed325a2f7b8225e3a493a2d52ddfca83
